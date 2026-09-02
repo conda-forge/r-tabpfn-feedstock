@@ -31,7 +31,8 @@ requirements:
     - r-cli
     - r-dplyr
     - r-generics
-    - r-hardhat
+    - r-hardhat >=1.4.1
+    - r-jsonlite
     - r-purrr
     - r-reticulate >=1.41.0.1
     - r-rlang >=1.1.0
@@ -41,7 +42,8 @@ requirements:
     - r-cli
     - r-dplyr
     - r-generics
-    - r-hardhat
+    - r-hardhat >=1.4.1
+    - r-jsonlite
     - r-purrr
     - r-reticulate >=1.41.0.1
     - r-rlang >=1.1.0
