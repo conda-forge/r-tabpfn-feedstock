@@ -1,4 +1,4 @@
-{% set version = '0.2.0' %}
+{% set version = "0.3.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/tabpfn_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/tabpfn/tabpfn_{{ version }}.tar.gz
-  sha256: d459b1ef30f72ad5b193e352f72c3567a79b4221d9b1bf529b9b0965be45540a
+  sha256: ee4e5e237e276ec36ce610fafad7ecaaf342b831eea2811566161b9207e42a5c
 
 build:
   number: 0
@@ -55,10 +55,8 @@ test:
 about:
   home: https://tabpfn.tidymodels.org, https://github.com/tidymodels/tabpfn
   license: Apache-2.0
-  summary: Provides a consistent API for classification and regression models based on the 'TabPFN'
-    model of Hollmann et al. (2025), "Accurate predictions on small data with a tabular
-    foundation model," Nature, 637(8045) <doi:10.1038/s41586-024-08328-6>. The calculations
-    are served via 'Python' to train and predict the model.
+  summary: Provides a consistent API for classification and regression models based on the 'TabPFN' model of Hollmann et al. (2025), "Accurate predictions on small data with a tabular foundation model," Nature, 637(8045) <doi:10.1038/s41586-024-08328-6>. The calculations are served via 'Python' to train and predict the
+    model.
   license_family: APACHE
   license_file:
     - LICENSE-2.0.txt
