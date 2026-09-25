@@ -1,4 +1,4 @@
-{% set version = "0.3.0" %}
+{% set version = "0.4.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/tabpfn_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/tabpfn/tabpfn_{{ version }}.tar.gz
-  sha256: ee4e5e237e276ec36ce610fafad7ecaaf342b831eea2811566161b9207e42a5c
+  sha256: e3fb280d074a34f19c5ae8b2509b6a0585d2ef4b64eabe8e5c0a4ecd8ff00f4d
 
 build:
   number: 0
